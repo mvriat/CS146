@@ -1,1 +1,1 @@
-
+This problem had a pretty simple solution and I'm happy I understood so quickly in class. All you have to do is sort the characters of both strings in alphabetical order and then check if they are equal. Sorting in alphabetical order takes care of any repeating letters as well. Python has a cool solution using a Counter object which I've never used. It's the same idea except in a hashmap.
