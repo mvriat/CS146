@@ -1,1 +1,1 @@
-
+For indexFinder I basically just started traversing nums and whatever i you are at, it creates a subarray of anything after that. In the subarray that uses j to count, it checks the condition if i + j = target. Then if it's true it returns i and j, otherwise it will continue on until it's finished and return nothing (an empty array of size two) if there is no solution.
