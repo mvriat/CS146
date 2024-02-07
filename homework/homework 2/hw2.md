@@ -1,1 +1,1 @@
-
+For this problem, I think it took me more effort figuring out how to start than actually writing the solution. I was confused about writing the boolean isBadVersion but we're just dealing with integers so it was easier than I thought. All I did was pick which versions I wanted to be bad. firstBadVersion is just binary search so I just implemented that with my isBadVersion.
