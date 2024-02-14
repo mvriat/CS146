@@ -16,4 +16,4 @@ MATRIX_MULTIPLY(A, B):
         sum ← sum + A[i][k] * B[k][j]                            row a * col b * col a times
       result[i][j] ← sum return result                           row a * col b times
 If you look at the multiplication of row a * col b * col a times, this is like multiplying a variable n three times and
-therefore the highest order of growth would be O(n^3). You can see this in the form of ax^3 + bx^2 + cx + d.
+therefore the highest order of growth would be O(n^3) (CUBIC). You can see this in the form of ax^3 + bx^2 + cx + d.
