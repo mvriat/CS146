@@ -1,4 +1,5 @@
 Insertion Sort
+ANSWER: quadratic time complexity
 Best Case: O(n)
 This is when the array of values are completely sorted. You would make a total of (N-1) comparisons. Recall
 that the first value of the array gets split with the rest, creating two subarrays. So the comparisons would
