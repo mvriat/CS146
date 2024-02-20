@@ -7,5 +7,5 @@ Problem 1:
 6) theta(n^(log2(5))*loglogn)
 Problem 2:
 T(N)=2T(N/2) + N
-solved: O(nlogn) using master theorem case 2.
+solved: O(nlogn) using master theorem case 2. 
 note: log2(5) means log base 2 of 5.
