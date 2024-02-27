@@ -20,7 +20,7 @@ class Servers:
                 itr += 1
         return servers
 
-# Example usage
+#test
 intervals = [[0, 1], [1, 2], [2, 3]]
 server = Servers()
 print(server.minMeetingRooms(intervals))
