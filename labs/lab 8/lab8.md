@@ -1,1 +1,4 @@
-
+Here we use the dynamic programming approach as opposed to the greedy approach, since as we discussed in class, being greedy locally does not yield the optimal solution in the end.
+We created maxAmount in case we come accross unreachable amounts in the prgoram. Then we created dynamic with length amount + 1 which accounts for coins needed from 0 to amount length. Now we fill the array with maxAmount.
+Of course it takes 0 coins to make the amount of 0, so we have dynamic[0] = 0.
+The for loop with j is going to keep track of the possible coin we can use to make our change. We will update dynamic[i] so that it gets the min amount of coins that you need for the current amount i. It returns -1 if if the min amount possible we got using our program is greater than the expected amount, meaning it was impossible. Otheriwse it returns min amount of coins as expected.
